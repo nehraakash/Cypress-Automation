@@ -1,0 +1,20 @@
+[
+    {
+        "email": "sydney@fife",
+        "error": "Missing password"
+    },
+    {
+        "email": "sydney@fife",
+        "password": "",
+        "error": "Missing password"
+    },
+    {
+        "email": "",
+        "password": "Anything",
+        "error": "Missing email or username"
+    },
+    {
+        "password": "Anything",
+        "error": "Missing email or username"
+    }
+]
