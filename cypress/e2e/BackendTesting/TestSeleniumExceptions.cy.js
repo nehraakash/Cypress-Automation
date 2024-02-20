@@ -26,7 +26,7 @@ describe("Test Selenium Exceptions", () => {
         exceptions_Page.VerifyNoSuchElementException()
     })
 
-    it.only("Verify ElementNotInteractableException ", () => {
+    it("Verify ElementNotInteractableException ", () => {
 
         exceptions_Page.VerifyElementNotInteractableException()
     })

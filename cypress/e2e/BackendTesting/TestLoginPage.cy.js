@@ -34,7 +34,7 @@ describe("Test Login Page functionality", () => {
     })
 
     // Validating 5 different wrong combinations 
-    it.only("Trying Login with invalid credentials and verify", () => {
+    it("Trying Login with invalid credentials and verify", () => {
 
         cy.fixture('InvalidLoginCredentials').then((data) => {
 
