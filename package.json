@@ -9,6 +9,7 @@
   "author": "Akash Nehra",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.6.4"
+    "cypress": "^13.6.4",
+    "cypress-real-events": "^1.12.0"
   }
 }
